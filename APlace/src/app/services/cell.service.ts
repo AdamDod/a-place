@@ -8,6 +8,7 @@ import { Cell } from 'src/app/models/cell';
 })
 export class CellService {
   readonly baseUrl: string = "https://aplaceapi.azurewebsites.net/";
+  // readonly baseUrl: string = "https://localhost:7008/";
 
   constructor(private _http: HttpClient) { }
 

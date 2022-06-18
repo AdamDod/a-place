@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/7f5a56cd-758a-4026-aecb-3d543c82e45b/microsoft.web/sites/subscriptions/7f5a56cd-758a-4026-aecb-3d543c82e45b/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/aPlaceAPI",
-    "appService.deploySubpath": "API\\publish"
-}
