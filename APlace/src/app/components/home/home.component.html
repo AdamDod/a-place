@@ -1,0 +1,35 @@
+<body>
+  <div class="container-canvas">
+    <div *ngFor="let i of rows">
+      <div
+        class="cell"
+        *ngFor="
+          let cell of cells.slice(0 + i * 100, (i + 1) * 100);
+          let x = index
+        "
+        (click)="changeCell(cell)"
+        [ngStyle]="{ 'background-color': cell.colour }"
+      ></div>
+    </div>
+  </div>
+  <div class="container-picker">
+    <div class="colour" [ngStyle]="{ 'background-color': colour }">
+      Selected!
+    </div>
+    <div
+      class="colour"
+      style="background-color: #000000"
+      (click)="changeColour('#000000')"
+    >
+      x
+    </div>
+    <div class="colour" style="background-color: #0000ff" (click)="changeColour('#0000ff')"></div>
+    <div class="colour" style="background-color: #ff0000" (click)="changeColour('#ff0000')"></div>
+    <div class="colour" style="background-color: #ffc0cb" (click)="changeColour('#ffc0cb')"></div>
+    <div class="colour" style="background-color: #ffa500" (click)="changeColour('#ffa500')"></div>
+    <div class="colour" style="background-color: #ffff00" (click)="changeColour('#ffff00')"></div>
+    <div class="colour" style="background-color: #008000" (click)="changeColour('#008000')"></div>
+    <div class="colour" style="background-color: #800080" (click)="changeColour('#800080')"></div>
+    <div class="colour" style="background-color: #ffffff" (click)="changeColour('#ffffff')"></div>
+  </div>
+</body>

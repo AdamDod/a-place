@@ -1,0 +1,29 @@
+.cell{
+  height:15px;
+  width:15px;
+
+}
+
+.container-canvas{
+  display:flex;
+  width: 1500px;
+  height:1500px;
+  border:5px solid black;
+}
+
+.container-picker{
+  width: 200px;
+  height: 1500px;
+}
+
+.colour{
+  width:80px;
+  height:80px;
+  margin:10px;
+  border: 1px black solid;
+}
+
+body{
+  display:flex;
+  margin:10px;
+}
