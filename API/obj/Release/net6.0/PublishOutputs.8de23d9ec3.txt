@@ -1,0 +1,17 @@
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\project-place.exe
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\appsettings.Development.json
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\appsettings.json
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\project-place.dll
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\project-place.deps.json
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\project-place.runtimeconfig.json
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\project-place.pdb
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\Microsoft.OpenApi.dll
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\System.Data.SqlClient.dll
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\runtimes\win-arm64\native\sni.dll
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\runtimes\win-x64\native\sni.dll
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\runtimes\win-x86\native\sni.dll
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
