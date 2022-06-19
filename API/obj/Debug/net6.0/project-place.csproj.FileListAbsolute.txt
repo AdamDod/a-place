@@ -36,8 +36,3 @@ C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\bin\Debug\net6.0\publis
 C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\bin\Debug\net6.0\publish\appsettings.json
 C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\bin\Debug\net6.0\publish\project-place.deps.json
 C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\bin\Debug\net6.0\publish\project-place.runtimeconfig.json
-C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\bin\Debug\net6.0\publish\publish\web.config
-C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\bin\Debug\net6.0\publish\publish\appsettings.Development.json
-C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\bin\Debug\net6.0\publish\publish\appsettings.json
-C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\bin\Debug\net6.0\publish\publish\project-place.deps.json
-C:\Users\adamd\OneDrive\Desktop\Coding\project-place\API\bin\Debug\net6.0\publish\publish\project-place.runtimeconfig.json

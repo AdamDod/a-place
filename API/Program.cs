@@ -16,6 +16,7 @@ builder.Services.AddCors(options =>
                                     .AllowAnyMethod();
                           });
 });
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -28,10 +29,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors();
+app.UseCors("MyPolicy");
 
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHub<CellHub>("/hub");
 
 app.Run();

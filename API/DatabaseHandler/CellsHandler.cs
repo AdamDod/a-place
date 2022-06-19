@@ -3,11 +3,13 @@ using System.Data.SqlClient;
 using System.Data;
 using System;
 using API.Models;
+using Microsoft.AspNetCore.SignalR;
 
 namespace API
 {
     public class CellsHandler : DatabaseHandler
     {
+
         public List<Cell> GetCells()
         {
             List<Cell> Cells = new List<Cell>();
@@ -37,7 +39,7 @@ namespace API
             return Cells;
         }
 
-        public String ChangeCell(Cell cell)
+        public String ChangeCell(Cell cell,IHubContext<CellHub> _hub)
         {
             int rowsAffected = 0;
             using (SqlConnection conn = new SqlConnection(GetConnectionString()))
@@ -56,6 +58,7 @@ namespace API
             }
             if (rowsAffected > 0)
             {
+                _hub.Clients.All.SendAsync("update", cell);
                 return "Cell Updated";
             }
             else

@@ -40,7 +40,8 @@ export class HomeComponent implements OnInit {
     this.hubConnection.on('update', (data) => {
       this.data = data;
       console.log(data);
-      this.loadCells();
+      this.cells[data.cellID - 1] = data;
+      // this.loadCells();
     });
   };
 
@@ -57,7 +58,6 @@ export class HomeComponent implements OnInit {
     c.colour = this.colour;
     this._cellService.changeCell(c).subscribe(
       (unpackedCells) => unpackedCells,
-      (error) => console.log('Error' + error.message),
       () => {
         this.loadCells;
       }
